@@ -7,7 +7,6 @@ static class Test2 {
         Console.WriteLine("--- РІВЕНЬ 2: Зв'язна черга вісімкових чисел ---");
         var queue = new LinkedQueue<string>();
         
-        // 100(8) = 64(10), 400(8) = 256(10), 150(8) = 104(10), 350(8) = 232(10)
         queue.Enqueue("100");
         queue.Enqueue("400");
         queue.Enqueue("150");

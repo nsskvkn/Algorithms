@@ -5,7 +5,7 @@ namespace Algorithms.lab1;
 static class Program {
     static void Main(string[] args) {
         if (args.Length == 0) {
-            // Для зручності запуску без аргументів з IDE, можна викликати обидва тести одразу
+            
             Console.WriteLine("Аргументи не передано. Запускаємо всі тести послідовно:\n");
             Test1.Run();
             Console.WriteLine("\n=========================================\n");

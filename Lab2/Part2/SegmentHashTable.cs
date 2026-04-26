@@ -4,7 +4,7 @@ using System.Text;
 namespace Algorithms.lab2;
 
 class SegmentHashTable {
-    // Тепер масив зберігає просто відрізки, без обгорток для видалення
+
     private Segment[] _array;
     private int _size;
     public int Count { get; private set; }
@@ -41,7 +41,7 @@ class SegmentHashTable {
                 return true;
             }
         }
-        return false; // Не знайшли вільного місця (хоча при Count < _size це рідкість)
+        return false; // Не знайшли вільного місця 
     }
 
     public Segment? GetSegment(float length) {
